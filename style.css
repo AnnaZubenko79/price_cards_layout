@@ -18,6 +18,7 @@
   position: relative;
   overflow: hidden;
   min-height: 770px;
+  padding-bottom: 5px;
 }
 .price-card__popular {
   position: absolute;

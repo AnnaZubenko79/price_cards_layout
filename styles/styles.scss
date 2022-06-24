@@ -19,6 +19,7 @@
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
     position: relative;
     overflow: hidden;
+    min-height: 770px;
 
     &__popular {
         position: absolute;
@@ -46,90 +47,96 @@
             margin-bottom: 0;
         }
     }
-}
 
-.price-card__title {
-    font-size: 35px;
-    line-height: 43px;
-    font-weight: 700;
-}
-
-.price-card__title-info {
-    margin-bottom: 33px;
-}
-
-.price-card__price {
-    font-size: 55px;
-    line-height: 67px;
-    font-weight: 700;
-    line-height: 105px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 40px;
-    background-color: $color-green;
-
-    &_second {
-        background-color: $color-blue;
+    &__title {
+        font-size: 35px;
+        line-height: 43px;
+        font-weight: 700;
     }
 
-    &_third {
-        background-color: $color-coral;
-    }
-}
-
-.price-card__description {
-    text-align: center;
-    margin-bottom: 40px;
-    padding: 0 26px;
-}
-
-.price-card__options {
-    width: 100%;
-    margin-bottom: 39px;
-}
-
-.price-card__elem {
-    padding-left: 49px;
-    position: relative;
-    line-height: 50px;
-
-    &::after {
-        content: '';
-        position: absolute;
-        background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
-        left: 22px;
-        top: 19px;
-        width: 15px;
-        height: 13px;
+    &__title-info {
+        margin-bottom: 33px;
+        font-size: 20px;
+        line-height: 24px;
     }
 
-    &_second {
-        &::after {
-            background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+    &__price {
+        font-size: 55px;
+        line-height: 67px;
+        font-weight: 700;
+        line-height: 105px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+        background-color: $color-green;
+
+        &_second {
+            background-color: $color-blue;
+        }
+
+        &_third {
+            background-color: $color-coral;
         }
     }
 
-    &_third {
+    &__description {
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 0 26px;
+    }
+
+    &__options {
+        width: 100%;
+        margin-bottom: 39px;
+    }
+
+    &__options-list {
+        padding-left: 59px;
+        position: relative;
+        line-height: 49px;
+
         &::after {
-            background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+            content: '';
+            position: absolute;
+            background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+            left: 22px;
+            top: 19px;
+            width: 15px;
+            height: 13px;
+        }
+
+        &:nth-child(odd) {
+            background-color: #2A3438;
+        }
+
+        &_second {
+            &::after {
+                background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+            }
+        }
+
+        &_third {
+            &::after {
+                background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+            }
         }
     }
-}
 
-.price-card__btn {
-    width: 155px;
-    height: 40px;
-    text-transform: uppercase;
-    border-radius: 20px;
-    background-color: $color-green;
-    color: $color-primary-text;
-    cursor: pointer;
+    &__btn {
+        width: 155px;
+        height: 40px;
+        text-transform: uppercase;
+        border-radius: 20px;
+        background-color: $color-green;
+        color: $color-primary-text;
+        cursor: pointer;
 
-    &_second {
-        background-color: $color-blue;
-    }
+        &_second {
+            background-color: $color-blue;
+        }
 
-    &_third {
-        background-color: $color-coral;
+        &_third {
+            background-color: $color-coral;
+        }
     }
 }

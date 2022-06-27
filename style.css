@@ -104,7 +104,6 @@
 }
 .price-card__options-list_first {
   padding-left: 29px;
-  position: relative;
   line-height: 50px;
 }
 .price-card__options-icon {
@@ -160,20 +159,20 @@ li {
 }
 
 body {
-  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
+  color: #fff;
 }
 
 .price-tables {
+  display: flex;
+  flex-direction: column;
   max-width: 1440px;
   width: 100%;
   min-height: 100vh;
   background-color: #141B1C;
-  display: flex;
-  flex-direction: column;
   margin: auto;
 }
 

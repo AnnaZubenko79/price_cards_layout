@@ -27,19 +27,19 @@ li {
 }
 
 body {
-  color: $color-primary-text;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
+  color: $color-primary-text;
 }
 
 .price-tables {
+  display: flex;
+  flex-direction: column;
   max-width: 1440px;
   width: 100%;
   min-height: 100vh;
   background-color: $color-bg;
-  display: flex;
-  flex-direction: column;
   margin: auto;
 }

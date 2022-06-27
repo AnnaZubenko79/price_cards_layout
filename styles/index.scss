@@ -3,44 +3,43 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    border: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
-
 h2 {
-    margin: 0;
-    font-weight: inherit;
-    font-size: inherit;
+  margin: 0;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    color: $color-primary-text;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
+  color: $color-primary-text;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 .price-tables {
-    max-width: 1440px;
-    width: 100%;
-    min-height: 100vh;
-    background-color: $color-bg;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $color-bg;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }

@@ -8,24 +8,20 @@
   margin: 0;
   border: 0;
 }
-
 h2 {
   margin: 0;
   font-weight: inherit;
   font-size: inherit;
 }
-
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 li {
   padding: 0;
   margin: 0;
 }
-
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -33,12 +29,9 @@ body {
   line-height: 18px;
   color: $color-primary-text;
 }
-
 .price-tables {
   display: flex;
-  flex-direction: column;
-  max-width: 1440px;
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   background-color: $color-bg;
   margin: auto;

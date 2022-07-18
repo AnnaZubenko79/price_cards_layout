@@ -51,13 +51,13 @@
   line-height: 105px;
   text-align: center;
   margin-bottom: 40px;
-  background-color: #5BB189;
+  background-color: #5bb189;
 }
 .price-card__price_second {
-  background-color: #3A6BA5;
+  background-color: #3a6ba5;
 }
 .price-card__price_third {
-  background-color: #EC632A;
+  background-color: #ec632a;
 }
 .price-card__description {
   text-align: center;
@@ -86,30 +86,30 @@
   width: 15px;
   height: 13px;
   top: 19px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
   background-repeat: no-repeat;
   padding: 15px;
 }
 .price-card__options-icon_blue {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
 }
 .price-card__options-icon_red {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
 }
 .price-card__btn {
   width: 155px;
   height: 40px;
   text-transform: uppercase;
   border-radius: 20px;
-  background-color: #5BB189;
+  background-color: #5bb189;
   color: #fff;
   cursor: pointer;
 }
 .price-card__btn_second {
-  background-color: #3A6BA5;
+  background-color: #3a6ba5;
 }
 .price-card__btn_third {
-  background-color: #EC632A;
+  background-color: #ec632a;
 }
 .price-card__popular {
   position: absolute;
@@ -151,7 +151,7 @@ li {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -162,7 +162,7 @@ body {
   display: flex;
   width: 100vw;
   min-height: 100vh;
-  background-color: #141B1C;
+  background-color: #141b1c;
   margin: auto;
 }
 

@@ -31,7 +31,8 @@ body {
 }
 .price-tables {
   display: flex;
-  width: 100vw;
+  max-width: 1440px;
+  width: 100%;
   min-height: 100vh;
   background-color: $color-bg;
   margin: auto;

@@ -1,3 +1,4 @@
+@import 'variables.scss';
 @import 'styles.scss';
 
 *,
@@ -31,8 +32,7 @@ body {
 }
 .price-tables {
   display: flex;
-  max-width: 1440px;
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   background-color: $color-bg;
   margin: auto;

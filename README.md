@@ -2,7 +2,7 @@
 
 ### [**Site link**](https://annazubenko79.github.io/price_cards_layout/)
 
-Layout supports mobile (up-to-320) and desktop (up-to-1440) versions
+Layout supports only desktop (1440px) versions
 
 ### **The tech stack is:**
 
